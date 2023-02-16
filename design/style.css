@@ -2,13 +2,51 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+body {
+    height: 100vh;
+}
+
+
+.flexbox-container {
     display: flex;
-    align-content: center;
     justify-content: center;
+    align-items: center;
+    /* height: 95vh; */
 }
 
 .card {
+
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 450px;
+    box-shadow: 2px 2px 5px lightgrey;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+ 
+
+}
+
+.card img {
+    max-width: 85%;
+    height:auto;
+    border-radius: 25px;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+
+.card p {
+    text-align: center;
+}
+
+/* .card {
     
     width: 300px;
     height: 400px;
@@ -54,4 +92,4 @@ main {
 }
 
 
-
+ */
