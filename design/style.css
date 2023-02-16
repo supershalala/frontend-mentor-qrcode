@@ -3,32 +3,31 @@
 }
 
 
+html {
+    background-color: hsl(220, 15%, 55%)
+}
+
+
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 
 
-.flexbox-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #bde3f5;
-    padding: 2.5% 30%;
-   
-}
+
 
 .card {
-    background-color: rgb(252, 252, 252);
+    background-color:white;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    width: 275px;
-    height: 425px;
+    max-width: 320px;
+    max-height: 450px;
     box-shadow: 2px 2px 5px lightgrey;
     padding: 20px;
     margin: 20px;
@@ -36,21 +35,18 @@ main {
 }
 
 .card img {
-    max-width: 78%;
+    max-width: 100%;
     height:auto;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
-.card h2 {
-    text-align: center;
-    font-size: 1.2em;
-}
-
-
-.card p {
+.card h1,p {
     text-align: center;
     font-size: 15px;
 }
+
+
+
 
 
 @media only screen and (max-width: 375px) {
